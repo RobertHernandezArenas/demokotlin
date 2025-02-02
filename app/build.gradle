@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.dimelorobert.demokotlin'
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.dimelorobert.demokotlin"
@@ -42,6 +42,9 @@ dependencies {
 
     /* Splash screen*/
     implementation libs.androidx.core.splashscreen
+
+    /* Animation*/
+    implementation libs.lottie
 
     testImplementation libs.junit
     androidTestImplementation libs.androidx.junit
